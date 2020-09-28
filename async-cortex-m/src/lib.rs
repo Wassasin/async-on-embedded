@@ -10,7 +10,7 @@ mod executor;
 pub mod task;
 pub mod unsync;
 
-use cortex_m_udf::udf as abort;
+use cortex_m::asm::udf as abort;
 
 /// Maximum number of tasks (TODO this could be user configurable)
 type NTASKS = typenum::consts::U8;

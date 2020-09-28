@@ -7,8 +7,7 @@ publish = false
 version = "0.0.0-alpha.0"
 
 [dependencies]
-cortex-m = "0.6.2"
-cortex-m-udf = { path = "../cortex-m-udf" }
+cortex-m = "0.6.3"
 generic-array = "0.13.2"
 heapless = { git = "https://github.com/japaric/heapless", branch = "slab" }
 pin-utils = "0.1.0-alpha.4"
